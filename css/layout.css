@@ -4,7 +4,7 @@
   display: grid;
   max-width: 1200px;
   margin: 0 auto;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 300px;
   grid-auto-rows: minmax(100px, auto);
   grid-template-areas:
     "head head"
@@ -17,7 +17,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 20px 10px;
   background-color: var(--color-accent1);
 }
 
@@ -27,6 +27,10 @@ header {
 
 aside {
   grid-area: side;
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: var(--color-bg);
+  padding: 10px;
 }
 
 footer {
@@ -34,18 +38,29 @@ footer {
 }
 
 .site-logo {
+  margin-top: 10px;
   width: 300px;
 }
 
 /* Home page */
 
-/* Single blog post */
+/* Sidebar */
 
-aside {
+.side-content {
   display: flex;
-  flex-flow: column wrap;
-  align-items: stretch;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  border-bottom: 1px solid black;
 }
+
+.side-author-img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+/* Single blog post */
 
 /* Design system page */
 
@@ -62,5 +77,12 @@ aside {
       "content"
       "side"
       "foot";
+  }
+
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
   }
 }

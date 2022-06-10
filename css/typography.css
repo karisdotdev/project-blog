@@ -21,3 +21,33 @@ h6 {
 p {
   font: 1rem/1.4 "Karla", sans-serif;
 }
+
+a {
+  font: 1rem/1.4 "Karla", sans-serif;
+  color: var(--color-accent2);
+  text-decoration: none;
+}
+
+/* Navigation */
+
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+.top-nav-link {
+  text-transform: uppercase;
+  padding: 8px;
+  transition: background-color ease-in-out 0.3s;
+}
+
+.top-nav-link:link,
+.top-nav-link:visited,
+.top-nav-link:active {
+  background-color: var(--color-bg);
+}
+
+.top-nav-link:hover {
+  background-color: var(--color-primary);
+  color: white;
+}
