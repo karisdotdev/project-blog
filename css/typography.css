@@ -1,0 +1,23 @@
+h1 {
+  font: 2.6rem/1.8 "Calistoga", cursive;
+}
+
+h2 {
+  font: 800 1.6rem/1.6 "Karla", sans-serif;
+  text-transform: uppercase;
+}
+
+h3 {
+  font: 700 1.2rem/1.4 "Karla", sans-serif;
+  text-transform: uppercase;
+}
+
+h4,
+h5,
+h6 {
+  font: 700 1.2rem/1.4 "Karla", sans-serif;
+}
+
+p {
+  font: 1rem/1.4 "Karla", sans-serif;
+}

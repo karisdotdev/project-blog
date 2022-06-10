@@ -1,0 +1,66 @@
+/* General styling */
+
+.grid {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-template-columns: 2fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas:
+    "head head"
+    "content side"
+    "foot foot";
+}
+
+header {
+  grid-area: head;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background-color: var(--color-accent1);
+}
+
+.content {
+  grid-area: content;
+}
+
+aside {
+  grid-area: side;
+}
+
+footer {
+  grid-area: foot;
+}
+
+.site-logo {
+  width: 300px;
+}
+
+/* Home page */
+
+/* Single blog post */
+
+aside {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: stretch;
+}
+
+/* Design system page */
+
+/* Responsive media queries */
+@media (max-width: 800px) {
+  .grid {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+      "head"
+      "content"
+      "side"
+      "foot";
+  }
+}
