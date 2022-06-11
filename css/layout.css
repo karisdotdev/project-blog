@@ -46,6 +46,12 @@ img {
   width: 100%;
 }
 
+/* adds 10px to top and bottom - is this ok to do? */
+
+.margin-10 {
+  margin: 10px 0;
+}
+
 /* Navigation */
 
 nav li {
@@ -56,7 +62,6 @@ nav li {
 /* Forms */
 
 .form-wrapper {
-  margin-top: 10px;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -102,6 +107,17 @@ nav li {
 
 .recipe {
   padding: 20px;
+}
+
+.recipe-box {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid var(--color-primary);
+}
+
+.recipe-box ul,
+.recipe-box ol {
+  margin: 15px;
 }
 
 /* TODO Design system page */

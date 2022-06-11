@@ -18,9 +18,16 @@ h6 {
   font: 700 1.2rem/2 "Karla", sans-serif;
 }
 
-p {
+p,
+figcaption,
+li {
   font: 1rem/1.4 "Karla", sans-serif;
   color: var(--color-grey);
+}
+
+figcaption {
+  text-align: center;
+  background-color: var(--color-bg);
 }
 
 a {
@@ -29,13 +36,13 @@ a {
   text-decoration: none;
 }
 
-li {
-  font: 1rem/1.4 "Karla", sans-serif;
-  color: var(--color-grey);
-}
-
 a:hover {
   color: var(--color-secondary);
+}
+
+.recipe-intro {
+  font: 1.2rem/1.6 "Karla", sans-serif;
+  margin-bottom: 1rem;
 }
 
 /* Navigation */
