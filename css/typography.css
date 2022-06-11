@@ -8,18 +8,19 @@ h2 {
 }
 
 h3 {
-  font: 700 1.2rem/1.4 "Karla", sans-serif;
+  font: 700 1.2rem/1.6 "Karla", sans-serif;
   text-transform: uppercase;
 }
 
 h4,
 h5,
 h6 {
-  font: 700 1.2rem/1.4 "Karla", sans-serif;
+  font: 700 1.2rem/2 "Karla", sans-serif;
 }
 
 p {
   font: 1rem/1.4 "Karla", sans-serif;
+  color: var(--color-grey);
 }
 
 a {
@@ -28,26 +29,49 @@ a {
   text-decoration: none;
 }
 
-/* Navigation */
-
-nav li {
-  list-style: none;
-  display: inline-block;
+li {
+  font: 1rem/1.4 "Karla", sans-serif;
+  color: var(--color-grey);
 }
 
-.top-nav-link {
+a:hover {
+  color: var(--color-secondary);
+}
+
+/* Navigation */
+
+.nav-link {
   text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
   padding: 8px;
   transition: background-color ease-in-out 0.3s;
 }
 
-.top-nav-link:link,
-.top-nav-link:visited,
-.top-nav-link:active {
+.nav-link:link,
+.nav-link:visited,
+.nav-link:active {
   background-color: var(--color-bg);
 }
 
-.top-nav-link:hover {
+.nav-link:hover {
   background-color: var(--color-primary);
   color: white;
+}
+
+/* Forms */
+
+button[type="submit"] {
+  font: 700 1rem/1.4 "Karla", sans-serif;
+  text-transform: uppercase;
+}
+
+.form-field label {
+  font: 1rem/1.4 "Karla", sans-serif;
+  color: var(--color-grey);
+}
+
+.form-field input {
+  font: 1rem/1.4 "Karla", sans-serif;
+  color: var(--color-grey);
 }

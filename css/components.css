@@ -1,3 +1,22 @@
+/* Header */
+
+.site-logo {
+  margin-top: 10px;
+  width: 300px;
+}
+
+/* Sidebar */
+
+.side-author-img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.side-advert {
+  width: 300px;
+  border: 1px solid black;
+}
+
 /* How to display blog posts */
 
 .card {
@@ -16,7 +35,7 @@
   flex-flow: row wrap;
 }
 
-.card-hero--info {
+.card-hero-info {
   width: 100%;
   display: flex;
   flex-flow: column wrap;
@@ -26,7 +45,54 @@
 
 /* Blog content */
 
+.recipe-meta {
+  padding: 8px;
+  background-color: var(--color-bg);
+  display: flex;
+}
+
+.recipe-meta-info {
+  width: 25%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.recipe-icon {
+  width: 30px;
+  margin: 4px;
+}
+
 .author {
   width: 120px;
   border-radius: 50%;
+}
+
+/* Forms */
+
+button[type="submit"] {
+  color: var(--color-accent2);
+  padding: 10px;
+  border: 2px solid var(--color-accent2);
+  width: 100%;
+  cursor: pointer;
+  background-color: var(--color-bg);
+  transition: background-color ease-in-out 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--color-primary);
+  color: white;
+  cursor: pointer;
+}
+
+.form-field input {
+  width: 100%;
+  margin-left: 6px;
+  padding: 2px;
+  border: 1px solid var(--color-grey);
+}
+
+.form-field input:focus {
+  outline-color: var(--color-primary);
 }

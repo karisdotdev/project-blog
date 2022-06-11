@@ -14,18 +14,21 @@
   <body>
     <div class="grid">
       <header>
-        <div><img src="resources/img-logo.png" alt="A sausage blog logo" class="site-logo" /></div>
+        <a href="#" title="home"
+          ><img src="resources/img-logo.png" alt="A sausage blog logo" class="site-logo"
+        /></a>
         <nav>
           <ul>
-            <li><a href="#" title="Home" class="top-nav-link">Home</a></li>
-            <li><a href="#" title="Recipes" class="top-nav-link">Recipes</a></li>
-            <li><a href="#" title="Guides" class="top-nav-link">Guides</a></li>
-            <li><a href="#" title="About" class="top-nav-link">About</a></li>
+            <li><a href="#" title="Home" class="nav-link">Home</a></li>
+            <li><a href="#" title="Recipes" class="nav-link">Recipes</a></li>
+            <li><a href="#" title="Guides" class="nav-link">Guides</a></li>
+            <li><a href="#" title="About" class="nav-link">About</a></li>
           </ul>
         </nav>
       </header>
-      <main>
+      <main class="content">
         <h1>Sausage blog</h1>
+
         <a href="blog/single-post.html" title="Single post">View blog post</a>
       </main>
       <aside>
@@ -39,23 +42,65 @@
         </div>
         <div class="side-content">
           <h3>Subscribe!</h3>
+          <p>Sign-up to my newsletter to receive weekly sausage recipes. No spam, just sausages.</p>
+          <form action="" method="get" class="form-wrapper">
+            <div class="form-field">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" aria-required="true" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" aria-required="true" required />
+            </div>
+            <button type="submit">Join newsletter</button>
+          </form>
+        </div>
+        <div class="side-content">
+          <h3>Ad break</h3>
+          <a href="#" title="Advertisement"
+            ><img src="resources/img-advert.jpg" alt="Advert" class="side-advert"
+          /></a>
         </div>
       </aside>
       <footer>
-        <a href="resources/design-system.html" title="Design system">Design system</a>
-        <p>
-          Chef photo by
-          <a
-            href="https://unsplash.com/@jsnbrsc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-            target="_blank"
-            >Jason Briscoe</a
+        <div class="footer-info">
+          <h4>Internal links</h4>
+          <a href="resources/design-system.html" title="Design system" class="nav-link"
+            >Design system</a
           >
-          on
-          <a
-            href="https://unsplash.com/photos/7MAjXGUmaPw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
-            >Unsplash</a
-          >
-        </p>
+        </div>
+        <div class="footer-credits">
+          <h4>Credits</h4>
+          <p>
+            Chef photo by
+            <a
+              href="https://unsplash.com/@jsnbrsc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              target="_blank"
+              >Jason Briscoe</a
+            >
+            on
+            <a
+              href="https://unsplash.com/photos/7MAjXGUmaPw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
+              >Unsplash</a
+            >
+          </p>
+          <p>
+            Hotdog photo by
+            <a
+              href="https://unsplash.com/@theblackrabbit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              target="_blank"
+              >The BlackRabbit</a
+            >
+            on
+            <a
+              href="https://unsplash.com/s/photos/sausage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Unsplash</a
+            >
+          </p>
+        </div>
+        <div class="footer-info">
+          <p>&copy; karisdotdev 2022</p>
+        </div>
       </footer>
     </div>
   </body>

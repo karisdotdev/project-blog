@@ -12,16 +12,113 @@
     <link rel="stylesheet" href="../css/main.css" />
   </head>
   <body>
-    <header>
-      <nav>NAV</nav>
-    </header>
-    <article>
-      <h1>British Bangers recipe</h1>
-      <a href="../index.html" title="Home">Back to home</a>
-    </article>
-    <aside>Side</aside>
-    <footer>
-      <a href="../resources/design-system.html" title="Design system">Design system</a>
-    </footer>
+    <div class="grid">
+      <header>
+        <a href="#" title="home"
+          ><img src="../resources/img-logo.png" alt="A sausage blog logo" class="site-logo"
+        /></a>
+        <nav>
+          <ul>
+            <li><a href="#" title="Home" class="nav-link">Home</a></li>
+            <li><a href="#" title="Recipes" class="nav-link">Recipes</a></li>
+            <li><a href="#" title="Guides" class="nav-link">Guides</a></li>
+            <li><a href="#" title="About" class="nav-link">About</a></li>
+          </ul>
+        </nav>
+      </header>
+      <article class="content">
+        <img src="../resources/img-sausage-main.jpg" alt="British Bangers Sausage recipe" />
+        <section class="recipe">
+          <h1>British Bangers recipe</h1>
+          <div class="recipe-meta">
+            <div class="recipe-meta-info">
+              <img src="../resources/dish-svgrepo-com.svg" alt="Yield" class="recipe-icon" />
+              <p>8</p>
+            </div>
+            <div class="recipe-meta-info">
+              <img src="../resources/clock-svgrepo-com.svg" alt="Time" class="recipe-icon" />
+              <p>40 mins</p>
+            </div>
+          </div>
+        </section>
+
+        <a href="../index.html" title="Home">View blog</a>
+      </article>
+      <aside>
+        <div class="side-content">
+          <img src="../resources/img-chef.jpg" class="side-author-img" />
+          <p>
+            Hello! I am Sarah and I love sausages so much I decided to start a blog all about them.
+            When I'm not making, cooking or eating sausages, you'll find me at the pub talking about
+            sausages over a pint. Sausages are great!
+          </p>
+        </div>
+        <div class="side-content">
+          <h3>Categories</h3>
+          <ul class="side-categories">
+            <li><a href="#" title="Pork">Pork</a> (20)</li>
+            <li><a href="#" title="Chicken">Chicken</a> (5)</li>
+            <li><a href="#" title="Cured">Cured</a> (10)</li>
+            <li><a href="#" title="Vegan">Vegan</a> (4)</li>
+            <li><a href="#" title="Vegetarian">Vegetarian</a> (9)</li>
+          </ul>
+        </div>
+        <div class="side-content">
+          <h3>Subscribe!</h3>
+          <p>Sign-up to my newsletter to receive weekly sausage recipes. No spam, just sausages.</p>
+          <form action="" method="get" class="form-wrapper">
+            <div class="form-field">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" aria-required="true" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" aria-required="true" required />
+            </div>
+            <button type="submit">Join newsletter</button>
+          </form>
+        </div>
+      </aside>
+      <footer>
+        <div class="footer-info">
+          <h4>Internal links</h4>
+          <a href="../resources/design-system.html" title="Design system" class="nav-link"
+            >Design system</a
+          >
+        </div>
+        <div class="footer-credits">
+          <h4>Credits</h4>
+          <p>
+            Chef photo by
+            <a
+              href="https://unsplash.com/@jsnbrsc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              target="_blank"
+              >Jason Briscoe</a
+            >
+            on
+            <a
+              href="https://unsplash.com/photos/7MAjXGUmaPw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
+              >Unsplash</a
+            >
+          </p>
+          <p>
+            Main sausage photo by
+            <a
+              href="https://unsplash.com/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              target="_blank"
+              >Louis Hansel</a
+            >
+            on
+            <a
+              href="https://unsplash.com/s/photos/sausage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Unsplash</a
+            >
+          </p>
+        </div>
+        <div class="footer-info">
+          <p>&copy; karisdotdev 2022</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
