@@ -1,3 +1,5 @@
+/* Headings */
+
 h1 {
   font: 2.6rem/1.8 "Calistoga", cursive;
 }
@@ -18,14 +20,18 @@ h6 {
   font: 700 1.2rem/2 "Karla", sans-serif;
 }
 
+/* paragraphs, lists, links, specific text */
+
 p,
-figcaption,
 li {
   font: 1rem/1.4 "Karla", sans-serif;
   color: var(--color-grey);
+  margin-bottom: 1rem;
 }
 
 figcaption {
+  font: 1rem/1.4 "Karla", sans-serif;
+  color: var(--color-grey);
   text-align: center;
   background-color: var(--color-bg);
 }
@@ -37,12 +43,18 @@ a {
 }
 
 a:hover {
-  color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
-.recipe-intro {
+.recipe-intro,
+.archive-intro {
   font: 1.2rem/1.6 "Karla", sans-serif;
   margin-bottom: 1rem;
+}
+
+.btn {
+  font: 700 1rem/1.4 "Karla", sans-serif;
+  text-transform: uppercase;
 }
 
 /* Navigation */

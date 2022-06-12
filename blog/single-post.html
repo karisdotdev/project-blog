@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/main.css" />
+    <script src="https://kit.fontawesome.com/7ac493b3a2.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="grid">
@@ -39,8 +40,12 @@
             tested recipe combines tips from many family members who all claim to make the best
             sausages, culminating in the ultimate British Banger.
           </p>
+          <p>
+            <u>Posted on:</u> <em>June 11 2022</em><br /><u>Category:</u>
+            <a href="#" title="Pork category">Pork</a>
+          </p>
           <h2>Why British Bangers?</h2>
-          <p class="margin-10">
+          <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima molestiae maxime autem
             necessitatibus laudantium quasi, perspiciatis placeat? Quo unde, quasi iure quam nobis
             ducimus quod molestiae. Distinctio provident tenetur officiis.
@@ -63,7 +68,7 @@
             />
           </div>
           <h2>Making British Bangers</h2>
-          <p class="margin-10">
+          <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe delectus at ea quod.
             Eius, culpa id maxime, repellendus deleniti aliquam ratione porro sunt, nobis iure
             tempore quod neque perferendis fugit!
@@ -71,12 +76,14 @@
           <figure>
             <blockquote>
               <p>
-                "This recipe is spectacular. The sausages are tremendous and go wonderfully with
-                Heinz ketchup."
+                <i class="fa-solid fa-quote-left fa-2x fa-pull-left"></i>
+                This recipe is spectacular. The sausages are tremendous and go wonderfully with
+                Heinz ketchup.
               </p>
             </blockquote>
             <figcaption>— my friend, <cite>Mr Egg</cite></figcaption>
           </figure>
+
           <div class="recipe-box">
             <h3>Ingredients</h3>
             <ul>
@@ -97,12 +104,77 @@
             </ol>
           </div>
         </section>
-        <section class="recipe-meta"></section>
+        <section class="recipe-author">
+          <div class="author-avatar">
+            <img src="../resources/img-chef.jpg" class="author-img" alt="Image of Sarah" />
+          </div>
+          <div class="author-bio">
+            <p><strong>Sarah Sausage</strong><br /><em>Marketing Director, Sausage Co</em></p>
+            <p>
+              I absolutely love sausages. Sausages are my life. If I'm not making, cooking or eating
+              sausages, I am chatting about sausages. I live in London with my sausage dog called
+              Frank.
+            </p>
+          </div>
+        </section>
+        <div class="social-share">
+          <h4>Share this recipe</h4>
+          <a href="#" class="fa-stack fa-lg">
+            <i class="fa-solid fa-circle fa-stack-2x"></i>
+            <i class="fa-brands fa-twitter fa-stack-1x fa-inverse"></i>
+          </a>
+          <a href="#" class="fa-stack fa-lg">
+            <i class="fa-solid fa-circle fa-stack-2x"></i>
+            <i class="fa-brands fa-facebook fa-stack-1x fa-inverse"></i>
+          </a>
+          <a href="#" class="fa-stack fa-lg">
+            <i class="fa-solid fa-circle fa-stack-2x"></i>
+            <i class="fa-brands fa-linkedin fa-stack-1x fa-inverse"></i>
+          </a>
+        </div>
+
+        <section class="related">
+          <div class="grid-3">
+            <div class="card">
+              <img
+                src="../resources/img-blog-sausage.jpg"
+                alt="A lone sausage on blue background"
+              />
+              <div class="card-content">
+                <h3>Sausage recipe</h3>
+                <p>This is another sausage recipe designed to blow your mind. It's so amazing.</p>
+                <a href="#" class="btn" title="Recipe">View recipe</a>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="../resources/img-blog-sausage.jpg"
+                alt="A lone sausage on blue background"
+              />
+              <div class="card-content">
+                <h3>Sausage recipe</h3>
+                <p>This is another sausage recipe designed to blow your mind. It's so amazing.</p>
+                <a href="#" class="btn" title="Recipe">View recipe</a>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="../resources/img-blog-sausage.jpg"
+                alt="A lone sausage on blue background"
+              />
+              <div class="card-content">
+                <h3>Sausage recipe</h3>
+                <p>This is another sausage recipe designed to blow your mind. It's so amazing.</p>
+                <a href="#" class="btn" title="Recipe">View recipe</a>
+              </div>
+            </div>
+          </div>
+        </section>
       </article>
       <aside>
         <div class="side-content">
-          <img src="../resources/img-chef.jpg" class="side-author-img" />
-          <p class="margin-10">
+          <img src="../resources/img-chef.jpg" class="side-author-img" alt="Image of Sarah" />
+          <p>
             Hello! I am Sarah and I love sausages so much I decided to start a blog all about them.
             When I'm not making, cooking or eating sausages, you'll find me at the pub talking about
             sausages over a pint. Sausages are great!
@@ -121,7 +193,7 @@
         <div class="side-content">
           <h3>Subscribe!</h3>
           <p>Sign-up to my newsletter to receive weekly sausage recipes. No spam, just sausages.</p>
-          <form action="" method="get" class="form-wrapper margin-10">
+          <form action="" method="get" class="form-wrapper">
             <div class="form-field">
               <label for="name">Name:</label>
               <input type="text" name="name" id="name" aria-required="true" required />
@@ -214,6 +286,22 @@
               target="_blank"
               rel="noopener"
               >Markus Spiske</a
+            >
+            on
+            <a
+              href="https://unsplash.com/s/photos/sausage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              target="_blank"
+              rel="noopener"
+              >Unsplash</a
+            >
+          </p>
+          <p>
+            Lone sausage by
+            <a
+              href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              target="_blank"
+              rel="noopener"
+              >charlesdeluvio</a
             >
             on
             <a

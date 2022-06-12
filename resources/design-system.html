@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Design System - My Sausage Blog</title>
+    <title>Sausages! - My Sausage Blog</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,19 +12,45 @@
     <link rel="stylesheet" href="../css/main.css" />
   </head>
   <body>
-    <header>
-      <nav>NAV</nav>
-    </header>
-    <main>
-      <h1>My Sausage Blog Design System</h1>
-      <h2>Typography</h2>
-      <h1>Heading 1</h1>
-      <h2>Heading 2</h2>
-      <h3>Heading 3</h3>
-      <p>Paragraph text</p>
-
-      <a href="../index.html" title="Home">View blog</a>
-    </main>
-    <footer>foot</footer>
+    <div class="design-container">
+      <header>
+        <a href="#" title="home"
+          ><img src="../resources/img-logo.png" alt="A sausage blog logo" class="site-logo"
+        /></a>
+        <nav>
+          <ul>
+            <li><a href="#" title="Home" class="nav-link">Home</a></li>
+            <li><a href="#" title="Recipes" class="nav-link">Recipes</a></li>
+            <li><a href="#" title="Guides" class="nav-link">Guides</a></li>
+            <li><a href="#" title="About" class="nav-link">About</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="design-content">
+        <h1>Design System</h1>
+        <ul>
+          <li><a href="#typography" title="Typography" class="nav-link">Typography</a></li>
+          <li><a href="#colours" title="Colours" class="nav-link">Colours</a></li>
+          <li><a href="#buttons" title="Buttons" class="nav-link">Buttons</a></li>
+          <li><a href="#cards" title="Cards" class="nav-link">Cards</a></li>
+          <li><a href="#forms" title="Forms" class="nav-link">Forms</a></li>
+          <li><a href="#authorbio" title="Bio" class="nav-link">Author bio</a></li>
+          <li><a href="#social" title="Social" class="nav-link">Social sharing</a></li>
+        </ul>
+        <p style="height: 1000px">TEXTTTTT</p>
+        <h2 id="typography">Typography</h2>
+        <h2 id="colours">Colours</h2>
+        <h2 id="buttons">Buttons</h2>
+        <h2 id="cards">Cards</h2>
+        <h2 id="forms">Forms</h2>
+        <h2 id="authorbio">Author bio</h2>
+        <h2 id="social">Social sharing</h2>
+      </main>
+      <footer>
+        <div class="footer-info">
+          <p>&copy; karisdotdev 2022</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
