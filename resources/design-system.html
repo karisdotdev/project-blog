@@ -10,16 +10,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/main.css" />
+    <script src="https://kit.fontawesome.com/7ac493b3a2.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="design-container">
       <header>
-        <a href="#" title="home"
+        <a href="../index.html" title="home"
           ><img src="../resources/img-logo.png" alt="A sausage blog logo" class="site-logo"
         /></a>
         <nav>
           <ul>
-            <li><a href="#" title="Home" class="nav-link">Home</a></li>
+            <li><a href="../index.html" title="Home" class="nav-link">Home</a></li>
             <li><a href="#" title="Recipes" class="nav-link">Recipes</a></li>
             <li><a href="#" title="Guides" class="nav-link">Guides</a></li>
             <li><a href="#" title="About" class="nav-link">About</a></li>
@@ -33,18 +34,103 @@
           <li><a href="#colours" title="Colours" class="nav-link">Colours</a></li>
           <li><a href="#buttons" title="Buttons" class="nav-link">Buttons</a></li>
           <li><a href="#cards" title="Cards" class="nav-link">Cards</a></li>
-          <li><a href="#forms" title="Forms" class="nav-link">Forms</a></li>
           <li><a href="#authorbio" title="Bio" class="nav-link">Author bio</a></li>
           <li><a href="#social" title="Social" class="nav-link">Social sharing</a></li>
         </ul>
-        <p style="height: 1000px">TEXTTTTT</p>
-        <h2 id="typography">Typography</h2>
-        <h2 id="colours">Colours</h2>
-        <h2 id="buttons">Buttons</h2>
-        <h2 id="cards">Cards</h2>
-        <h2 id="forms">Forms</h2>
-        <h2 id="authorbio">Author bio</h2>
-        <h2 id="social">Social sharing</h2>
+        <section id="typography">
+          <h2>Typography</h2>
+          <h1>Heading 1</h1>
+          <h2>Heading 2</h2>
+          <h3>Heading 3</h3>
+          <h4>Heading 4</h4>
+          <p>Paragraph text - <em>Emphasis</em> - <strong>Strong</strong> - <u>Underlined</u></p>
+          <a href="#" title="Anchor">Anchor</a><br /><br />
+          <a href="#" title="Link" class="nav-link">Navigation link</a>
+          <br /><br />
+          <figure>
+            <blockquote>
+              <p>
+                <i class="fa-solid fa-quote-left fa-2x fa-pull-left"></i>
+                This is a quote.
+              </p>
+            </blockquote>
+            <figcaption>— <cite>Name</cite></figcaption>
+          </figure>
+        </section>
+        <section id="colours">
+          <h2>Colours</h2>
+          <div class="design-color design-color-1">#f2668b</div>
+          <div class="design-color design-color-2">#f6e3e4</div>
+          <div class="design-color design-color-3">#f2bbbf</div>
+          <div class="design-color design-color-4">#bf506e</div>
+          <div class="design-color design-color-5">#565656</div>
+        </section>
+        <section id="buttons">
+          <h2>Buttons</h2>
+          <button class="btn">Button</button>
+        </section>
+        <section id="cards">
+          <h2>Cards</h2>
+          <div class="design-card-hero">
+            <div class="card-hero">
+              <img
+                src="../resources/img-blog-sausage.jpg"
+                alt="Main sausage recipe"
+                class="card-hero-img"
+              />
+              <div class="card-hero-content">
+                <h2>Recipe title</h2>
+                <p>
+                  Longer recipe introduction of around 40 words - longer recipe introduction of
+                  around 40 words - longer recipe introduction of around 40 words -- longer recipe
+                  introduction of around 40 words - longer recipe introduction of around 40 words -
+                  longer introduction
+                </p>
+                <a href="blog/single-post.html" class="btn" title="Recipe">View recipe</a>
+              </div>
+            </div>
+          </div>
+          <div class="design-card">
+            <div class="card">
+              <img src="../resources/img-blog-sausage.jpg" alt="Image alt" />
+              <div class="card-content">
+                <h3>Recipe title</h3>
+                <p>Intro text</p>
+                <a href="#" class="btn" title="Recipe">View recipe</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="authorbio">
+          <h2>Author bio</h2>
+          <div class="recipe-author">
+            <div class="author-avatar">
+              <img src="../resources/img-chef.jpg" class="author-img" alt="Image of Sarah" />
+            </div>
+            <div class="author-bio">
+              <p><strong>Author name</strong><br /><em>Job title, Company</em></p>
+              <p>
+                A short introduction to the author of the recipe. Include reasons why they are
+                blogging on this topic and any relevant interests.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="social">
+          <h2>Social sharing</h2>
+          <a href="#" class="fa-stack fa-lg">
+            <i class="fa-solid fa-circle fa-stack-2x"></i>
+            <i class="fa-brands fa-twitter fa-stack-1x fa-inverse"></i>
+          </a>
+          <a href="#" class="fa-stack fa-lg">
+            <i class="fa-solid fa-circle fa-stack-2x"></i>
+            <i class="fa-brands fa-facebook fa-stack-1x fa-inverse"></i>
+          </a>
+          <a href="#" class="fa-stack fa-lg">
+            <i class="fa-solid fa-circle fa-stack-2x"></i>
+            <i class="fa-brands fa-linkedin fa-stack-1x fa-inverse"></i>
+          </a>
+        </section>
       </main>
       <footer>
         <div class="footer-info">

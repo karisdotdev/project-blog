@@ -26,6 +26,9 @@ p,
 li {
   font: 1rem/1.4 "Karla", sans-serif;
   color: var(--color-grey);
+}
+
+p {
   margin-bottom: 1rem;
 }
 
@@ -80,16 +83,7 @@ a:hover {
 
 /* Forms */
 
-button[type="submit"] {
-  font: 700 1rem/1.4 "Karla", sans-serif;
-  text-transform: uppercase;
-}
-
-.form-field label {
-  font: 1rem/1.4 "Karla", sans-serif;
-  color: var(--color-grey);
-}
-
+.form-field label,
 .form-field input {
   font: 1rem/1.4 "Karla", sans-serif;
   color: var(--color-grey);
